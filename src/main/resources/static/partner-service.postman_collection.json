@@ -1,0 +1,76 @@
+{
+	"id": "1b1f2b5c-b805-7343-0751-c9f5ec21ea7e",
+	"name": "partner-service",
+	"description": "",
+	"order": [
+		"b340ac3b-80c8-bba9-c0e4-a047caad1913",
+		"ad1d6bcd-5e15-bbfc-1362-c2b06ab0e90d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1567271073857,
+	"owner": "2246362",
+	"public": false,
+	"requests": [
+		{
+			"id": "ad1d6bcd-5e15-bbfc-1362-c2b06ab0e90d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/partner-service/api/v1/partners",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567274390276,
+			"name": "Create Partners",
+			"description": "",
+			"collectionId": "1b1f2b5c-b805-7343-0751-c9f5ec21ea7e",
+			"responses": [],
+			"rawModeData": "{  \r\n   \"legalFirstName\":\"Gayan\",\r\n   \"legalLastName\":\"Sirimanna\",\r\n   \"preferedName\":\"RaviGayan\",\r\n   \"partnerType\":\"CONTRACT\",\r\n   \"address1\":\"Bolgoda lake, avenue park\",\r\n   \"address2\":\"Bentota\",\r\n   \"city\":\"Bentota\",\r\n   \"state\":\"Southern\"\r\n}"
+		},
+		{
+			"id": "b340ac3b-80c8-bba9-c0e4-a047caad1913",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5001/partner-service/api/v1/partners",
+			"queryParams": [
+				{
+					"key": "partner-type",
+					"value": "CONTRACT",
+					"equals": true,
+					"description": "",
+					"enabled": false
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567329510525,
+			"name": "Retrieve Partners",
+			"description": "",
+			"collectionId": "1b1f2b5c-b805-7343-0751-c9f5ec21ea7e",
+			"responses": []
+		}
+	]
+}
