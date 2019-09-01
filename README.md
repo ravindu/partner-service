@@ -2,9 +2,11 @@
 
 ##partner-service Endpoints
 
--Create Partner   - **POST** ***http://localhost:5001/partner-service/api/v1/partners***
--Retrieve Partner - **GET**  ***http://localhost:5001/partner-service/api/v1/partners***
--Retrieve Partner by Partner Type - **GET**  ***http://localhost:5001/partner-service/api/v1/partners?partner-type={partner-type}***
+-Create Partner   - **POST** http://localhost:5001/partner-service/api/v1/partners
+
+-Retrieve Partner - **GET**  http://localhost:5001/partner-service/api/v1/partners
+
+-Retrieve Partner by Partner Type - **GET** http://localhost:5001/partner-service/api/v1/partners?partner-type={partner-type}
 
 ###Features
 
